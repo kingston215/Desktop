@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cigar Culture in Little Havana</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        .container {
+            margin-top: 60px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            max-width: 800px;
+            margin: 60px auto;
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="cigars.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CIGARS</a>
+        <a href="cars.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CARS</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="Events" class="w3-bar-item w3-button">Events</a>
+                <a href="Coffee" class="w3-bar-item w3-button">Coffee</a>
+                <a href="History" class="w3-bar-item w3-button">History</a>
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+    <div class="w3-container container">
+        <p>Cigars are an integral part of the culture in Little Havana, reflecting the deep-rooted Cuban tradition of cigar making that immigrants brought with them to Miami. Here are some aspects of the cigar culture in Little Havana:</p>
+
+        <h3><b>1. Cigar Shops and Factories:</b></h3>
+        <p>Little Havana is home to numerous cigar shops and small factories where skilled artisans hand-roll cigars in traditional methods that have been passed down through generations. These establishments often allow visitors to watch the cigar-rolling process, providing a glimpse into the artistry and skill involved.</p>
+
+        <h3><b>2. Famous Establishments:</b></h3>
+        <p>Some of the most renowned places to buy and learn about cigars in Little Havana include El Titan de Bronze, La Casa de los Habanos, and Padron Cigars. These shops are celebrated for their high-quality products and for maintaining the authenticity of their craft.</p>
+
+        <h3><b>3. Cultural Significance:</b></h3>
+        <p>Cigars are more than just a product in Little Havana; they are a significant cultural symbol. They represent a connection to Cuban heritage and are a point of pride within the community. Cigar lounges and shops are common gathering places where stories are shared, and community bonds are strengthened.</p>
+
+        <h3><b>4. Tourist Attraction:</b></h3>
+        <p>The cigar culture also attracts many tourists to Little Havana. Visitors come to experience the rich aroma of fresh tobacco, learn about the intricate process of cigar making, and purchase hand-rolled cigars as souvenirs.</p>
+
+        <h3><b>5. Festivals and Events:</b></h3>
+        <p>Cigars feature prominently in local celebrations and events. For instance, the Calle Ocho Festival often includes cigar-rolling demonstrations, and cigar events are regularly held where aficionados can enjoy new blends and classic favorites.</p>
+
+        <p>The tradition of cigar making and the community's passion for cigars continue to make Little Havana a pivotal location for those looking to experience authentic Cuban cigars outside of Cuba itself.</p>
+
+        <p>Here's an image depicting a vibrant scene of a traditional cigar shop in Little Havana, Miami, complete with artisans hand-rolling cigars and a lively street atmosphere. You can see the colorful exterior of the shop, the skilled artisans at work, and people enjoying freshly rolled cigars outside.</p>
+    </div>
+</div>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</body>
+</html>
