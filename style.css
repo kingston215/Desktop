@@ -1,0 +1,25 @@
+
+.font-change{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vid{
+  height: 300px;
+}
+
+.submit-button{
+  background-color:blue !important;
+  }
+
+
+h3 {
+  color: blue;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
